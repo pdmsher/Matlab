@@ -1,0 +1,8 @@
+subplot(1, 2, 1);
+t = linespace(0, 2*pi, 250); 
+r = sprt(abs(sin(3*t))); 
+r1 = sqrt(abs(cos(3*t))); 
+polar(t, r); 
+subplot(
+
+print('-dtiff','myoutput2.jpg')
